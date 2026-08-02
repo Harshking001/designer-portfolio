@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    /* Adapts automatically to browser dark/light theme */
+    rect { fill: #0f172a; }
+    text { fill: #38bdf8; font-family: system-ui, sans-serif; font-weight: 800; }
+
+    @media (prefers-color-scheme: dark) {
+      rect { fill: #f8fafc; }
+      text { fill: #0ea5e9; }
+    }
+  </style>
+  
+  <rect width="100" height="100" rx="24" />
+  <!-- Replace with your initials or code symbol -->
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="52">&lt;/&gt;</text>
+</svg>
