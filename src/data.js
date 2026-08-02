@@ -54,22 +54,22 @@ export const projects = [
     id: "nexa",
     number: "01",
     name: "Expense Tracker",
-    category: "HTML, CSS ,JavaScript",
+    category: "HTML CSS JavaScript",
 
     github: "https://github.com/Harshking001/Expence",
     preview: "https://harshking001.github.io/Expence/",
     image: '',
   },
-  // {
-  //   id: "aura",
-  //   number: "02",
-  //   name: "Aura AI",
-  //   category: "SaaS Dashboard",
+  {
+    id: "aura",
+    number: "02",
+    name: "Football Academy",
+    category: "React Vites",
 
-  //   github: "",
-  //   preview: "",
-  //   image: "",
-  // },
+    github: "https://github.com/Harshking001/masinza001",
+    preview: "https://harshking001.github.io/Masinza001/",
+    image: "",
+  },
 ];
 
 export const testimonialsSection = {
