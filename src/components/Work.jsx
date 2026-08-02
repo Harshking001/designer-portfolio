@@ -24,15 +24,45 @@ export default function Work() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+            transition={{
+              duration: 0.7,
+              delay: i * 0.1,
+              ease: [0.16, 1, 0.3, 1],
+            }}
           >
             <div className="p-info">
               <h3>
                 {project.number} / {project.name}
               </h3>
+
               <p>{project.category}</p>
+
+              <div className="project-links">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Code
+                </a>
+              </div>
             </div>
-            <div className="p-image">Project Preview</div>
+
+            <a
+              href={project.preview}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-image"
+              style={
+                project.image
+                  ? {
+                      backgroundImage: `url(${project.image})`,
+                    }
+                  : {}
+              }
+            >
+              {!project.image && "Project Preview"}
+            </a>
           </motion.div>
         ))}
       </div>

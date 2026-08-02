@@ -1,10 +1,26 @@
-
-main {
-  padding: 0 10%;
+.project-links {
+  margin-top: 18px;
 }
 
-@media (max-width: 768px) {
-  main {
-    padding: 0 5%;
-  }
+.project-links a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+  transition: opacity 0.3s;
+}
+
+.project-links a:hover {
+  opacity: 0.7;
+}
+
+.p-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.p-image:hover {
+  transform: scale(1.02);
 }

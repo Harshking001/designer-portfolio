@@ -1,3 +1,4 @@
+// import expense from "/src/assets/favicon.svg";
 // ============================================================
 //  DATA.JS — Edit everything about the site's content here.
 //  Components read from this file, so you rarely need to
@@ -52,15 +53,23 @@ export const projects = [
   {
     id: "nexa",
     number: "01",
-    name: "Nexa Bank",
-    category: "Fintech Redesign",
+    name: "Expense Tracker",
+    category: "HTML, CSS ,JavaScript",
+
+    github: "https://github.com/Harshking001/Expence",
+    preview: "https://harshking001.github.io/Expence/",
+    image: '',
   },
-  {
-    id: "aura",
-    number: "02",
-    name: "Aura AI",
-    category: "SaaS Dashboard",
-  },
+  // {
+  //   id: "aura",
+  //   number: "02",
+  //   name: "Aura AI",
+  //   category: "SaaS Dashboard",
+
+  //   github: "",
+  //   preview: "",
+  //   image: "",
+  // },
 ];
 
 export const testimonialsSection = {
