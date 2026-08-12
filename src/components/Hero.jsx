@@ -29,7 +29,7 @@ const item = {
     },
   },
 };
-
+ 
 export default function Hero() {
 
   const textRef = useRef(null);
@@ -37,15 +37,18 @@ export default function Hero() {
   useLayoutEffect(() => {
     const split = new SplitText(textRef.current, {
       type: "chars",
+      smartWrap: true,
     });
 
-    let tl = gsap.timeline({repeat: -1,yoyo: true})
+    let tl = gsap.timeline({repeat: -1,yoyo: true,})
 
     tl.from(split.chars, {
       opacity: 0,
       x: 50,
       duration: 1,
-      stagger: 0.1,
+      stagger: {
+        each: 0.1,
+      },
       ease: "power3.out",
     });
 
@@ -67,6 +70,7 @@ export default function Hero() {
       split.revert();
     };
   }, []);
+
 
   return (
     <section id="hero">

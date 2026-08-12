@@ -25,7 +25,7 @@ export const hero = {
   titleHighlight: "Digital",
   titleSuffix: "Mastery.",
   subtext:
-    "Senior UI/UX Designer specializing in high-conversion products and emotional design.",
+    "Senior UI/UX Designer specializing in high-conversion products and emotional design using GSAP animation.",
   scrollLabel: "Scroll",
 };
 

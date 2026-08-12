@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { WhatsAppIcon, GithubIcon, InstagramIcon } from "./BrandIcons";
 import { footer } from "../data";
 import "./Footer.css";
+import { useGSAP } from "@gsap/react";
 
 const ICONS = {
   MessageCircle: WhatsAppIcon,
@@ -10,6 +11,7 @@ const ICONS = {
 };
 
 export default function Footer() {
+
   return (
     <footer className="footer">
       <div className="footer-content">
