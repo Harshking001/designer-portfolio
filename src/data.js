@@ -34,7 +34,7 @@ export const skills = [
   { id: "css", label: "CSS3", icon: "CSS", color: "#264de4" },
   { id: "js", label: "JavaScript", icon: "JS", color: "#f7df1e" },
   { id: "react", label: "React", icon: "RT", color: "#61dbfb" },
-  { id: "ts", label: "TypeScript", icon: "TS", color: "#3178c6" },
+  { id: "ts", label: "GSAP", icon: "GSAP", color: "#08b82e" },
   { id: "tailwind", label: "Tailwind", icon: "TW", color: "#38bdf8" },
 ];
 
@@ -68,8 +68,21 @@ export const projects = [
 
     github: "https://github.com/Harshking001/masinza001",
     preview: "https://harshking001.github.io/Masinza001/",
-    image: "",
+    image: "/designer-portfolio/images/football.png",
   },
+  {
+    id: "aura",
+    number: "03",
+    name: "Gsap Animation",
+    category: "Responsive React GSAP",
+
+    github: "https://github.com/Harshking001/Drinks",
+    preview: "https://harshking001.github.io/Drinks/",
+    image: "/designer-portfolio/images/drink-screenshot.png",
+  },
+
+
+  
 ];
 
 export const testimonialsSection = {
