@@ -3,7 +3,7 @@
 :root {
   --primary: #6366f1;
   --accent: #6366f1;
-  --bg: #0f172a;
+  --bg: #0f172aa9;
   --text: #ffffff;
   --text-dim: #94a3b8;
   --text-main: #ffffff;
@@ -17,7 +17,7 @@
 }
 
 [data-theme="light"] {
-  --bg: #f5f5f7;
+  --bg: #f5f5f77a;
   --text: #0a0a0a;
   --text-main: #0a0a0a;
   --text-dim: #6b7280;
@@ -39,12 +39,13 @@ html {
 }
 
 body {
-  background: var(--bg);
+  background-color: var(--bg);
   color: var(--text);
   font-family: var(--font);
   transition: background 0.5s, color 0.5s;
   overflow-x: hidden;
   cursor: none;
+  background-image: url(/images/noise.png);
 }
 
 @media (max-width: 900px), (hover: none) {
