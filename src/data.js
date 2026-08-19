@@ -1,10 +1,3 @@
-// import expense from "/src/assets/favicon.svg";
-// ============================================================
-//  DATA.JS — Edit everything about the site's content here.
-//  Components read from this file, so you rarely need to
-//  touch any .jsx files to update copy, links, or images.
-// ============================================================
-
 export const siteInfo = {
   logoText: "PORTFOLIO",
   logoMark: "©",
@@ -66,8 +59,8 @@ export const projects = [
     name: "Football Academy",
     category: "React Vites",
 
-    github: "https://github.com/Harshking001/masinza001",
-    preview: "https://harshking001.github.io/Masinza001/",
+    github: "https://github.com/Harshking001/stars",
+    preview: "https://harshking001.github.io/stars/",
     image: "/designer-portfolio/images/football.png",
   },
   {
