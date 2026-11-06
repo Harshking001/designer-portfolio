@@ -15,6 +15,9 @@ export default function Header({ theme, onToggleTheme }) {
         <span>{siteInfo.logoMark}</span>
       </div>
       <div className="nav-controls">
+        <a href={`mailto:${siteInfo.email}`} className="hire-btn">
+          {siteInfo.hireLabel}
+        </a>
         <button
           id="theme-toggle"
           aria-label="Toggle color theme"
@@ -30,9 +33,6 @@ export default function Header({ theme, onToggleTheme }) {
             <SunMoon size={22} />
           </motion.span>
         </button>
-        <a href={`mailto:${siteInfo.email}`} className="hire-btn">
-          {siteInfo.hireLabel}
-        </a>
       </div>
     </motion.header>
   );

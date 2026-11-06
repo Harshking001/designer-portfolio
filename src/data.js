@@ -2,7 +2,7 @@ export const siteInfo = {
   logoText: "PORTFOLIO",
   logoMark: "©",
   email: "ekey6343@gmail.com",
-  hireLabel: "Work With Me",
+  hireLabel: "contact",
 };
 
 export const navItems = [
