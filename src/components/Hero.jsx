@@ -64,8 +64,6 @@ export default function Hero() {
       ease: 'sine.out',
     })
 
-
-
     return () => {
       split.revert();
     };
