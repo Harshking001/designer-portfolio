@@ -46,22 +46,22 @@ export const projects = [
   {
     id: "nexa",
     number: "01",
-    name: "Expense Tracker",
-    category: "HTML CSS JavaScript",
+    name: "poultry farming website",
+    category: "react vites, GSAP",
 
-    github: "https://github.com/Harshking001/Expence",
-    preview: "https://harshking001.github.io/Expence/",
-    image: '',
+    github: "https://github.com/Harshking001/prime-poultry",
+    preview: "prime-poultry.pages.dev",
+    image: '/images/poultry.png',
   },
   {
     id: "aura",
     number: "02",
-    name: "Football Academy",
-    category: "React Vites",
+    name: "social media clone",
+    category: "react vites, GSAP, supabase, APIs",
 
-    github: "https://github.com/Harshking001/stars",
-    preview: "https://harshking001.github.io/stars/",
-    image: "/designer-portfolio/images/football.png",
+    github: "https://github.com/Harshking001/social",
+    preview: "social01.pages.dev",
+    image: '/images/social.png',
   },
   {
     id: "aura",
@@ -71,11 +71,18 @@ export const projects = [
 
     github: "https://github.com/Harshking001/Drinks",
     preview: "https://harshking001.github.io/Drinks/",
-    image: "/designer-portfolio/images/drink-screenshot.png",
+    image: "/images/drink-screenshot.png",
   },
+  {
+    id: "nexa",
+    number: "04",
+    name: "Expense Tracker",
+    category: "HTML CSS JavaScript",
 
-
-  
+    github: "https://github.com/Harshking001/Expence",
+    preview: "https://harshking001.github.io/Expence/",
+    image: '',
+  }
 ];
 
 export const testimonialsSection = {
